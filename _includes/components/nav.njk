@@ -1,4 +1,7 @@
 <nav>
+  <header>
+    <a href="{{ '/' | url }}">{{ metadata.title }}</a>
+  </header>
   {% set navPages = collections.all | eleventyNavigation %}
   <ul>
   {%- for entry in navPages %}
@@ -7,4 +10,5 @@
     </li>
   {%- endfor %}
   </ul>
+  {% include "components/footer.njk" %}
 </nav>
