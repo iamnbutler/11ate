@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Martel:wght@400;700&family=Raleway:ital,wght@0,900;1,700&display=swap");
 
 :root {
-  --primary: blue;
+  --primary: #000;
   --secondary: white;
-  --background: #fff0eb;
+  --background: white;
+  --border: #333;
+  --highlight: #00ffff;
 }
 
 *,
@@ -212,4 +214,12 @@ button {
   :root {
     font-size: 1.1rem;
   }
+}
+
+/* Site BG */
+.site-bg {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
 }
