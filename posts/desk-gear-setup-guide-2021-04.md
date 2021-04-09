@@ -21,7 +21,10 @@ tags:
   - tip
   - hardware
 show_thumbnail: true
-prefer_wide_thumbnail: false
+thumbnail: /static/img/post/thumbnail/desk-setup-guide-1x1.jpg
+prefer_wide_thumbnail: true
+wide_thumbnail: /static/img/post/thumbnail/desk-setup-guide-2x1.jpg
+hero_image: /static/img/post/hero/desk-setup-guide-hero.jpg
 edit: Image by [Slava Keyzman](https://unsplash.com/@slavasfotos).
 ---
 wip
